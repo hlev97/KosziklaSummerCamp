@@ -1,0 +1,25 @@
+.card {
+  width: fit-content;
+
+  &__details {
+    ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto;
+
+      li {
+        text-align: center;
+        font-size: 2rem;
+        padding: 1rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid lightgray;
+        }
+      }
+    }
+  }
+
+  .btn-primary {
+    background-color: #d8896c;
+  }
+}
